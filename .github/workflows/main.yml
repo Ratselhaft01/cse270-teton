@@ -106,7 +106,7 @@ jobs:
     needs: analyze
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+      url: https://ratselhaft01.github.io/cse270-teton/teton/1.6/index.html
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
